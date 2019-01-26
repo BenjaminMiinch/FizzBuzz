@@ -10,8 +10,8 @@ int main(void)
     { printf("\nFIZZ\n")};
     if(i%5 == 0)
     { printf("\nBUZZ\n")};
-    if(i%3 != 0 && i%5 != 0)
-    { printf("\nNumber = %d\n")};
+    if(i%3 == 0 && i%5 == 0)
+    { printf("\nFIZZBUZZ\n")};
     
     return 0;
 }
